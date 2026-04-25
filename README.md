@@ -1,8 +1,10 @@
-```{
+```
+
+{
   "inbounds": [{
     "port": 1080,
     "protocol": "socks",
-    "settings": { "auth": "noauth", "udp": true }
+    "settings": { "udp": true }
   }],
   "outbounds": [{
     "protocol": "vless",
@@ -23,11 +25,9 @@
       "realitySettings": {
         "serverName": "www.cloudflare.com",
         "fingerprint": "chrome",
-        "show": false,
         "publicKey": "zEd2ONQfkT1UUv0WuUi_3RE1thBz8MXWKADf0xf_6kg",
         "shortId": "6ba85179e30d4fc2"
       }
     }
   }]
 }
-
