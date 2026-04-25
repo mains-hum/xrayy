@@ -1,4 +1,4 @@
-{
+```{
   "inbounds": [{
     "port": 1080,
     "protocol": "socks",
@@ -30,3 +30,4 @@
     }
   }]
 }
+
